@@ -3,5 +3,4 @@
 	functionsPort = 23456
 	targetPort = 3000
 	port = 3000
-	autoLaunch = true
-	publish = "dist"
+	command = "python -m SimpleHTTPServer 8080"
